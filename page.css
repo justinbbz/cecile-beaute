@@ -1,0 +1,26 @@
+/* Pages annexes : remerciement, mentions légales, erreur 404 */
+.page { background: var(--cream); min-height: 100vh; min-height: 100dvh; }
+.page__main { max-width: 52rem; margin: 0 auto; padding: clamp(2rem, 7vw, 5rem) var(--gutter) 5rem; display: grid; gap: 1.2rem; align-content: start; }
+.page__logo { display: inline-flex; align-items: center; gap: .7rem; justify-self: start; text-decoration: none; font-family: var(--ff-display); font-size: 1.7rem; line-height: 1; margin-bottom: clamp(2rem, 6vw, 4rem); }
+.page__logo svg { width: 1.5rem; color: var(--rose-d); }
+.page__logo em { font-style: italic; color: var(--rose-d); }
+.page__title { font-family: var(--ff-display); font-weight: 400; font-size: clamp(2.8rem, 8vw, 5.6rem); line-height: .98; letter-spacing: -.012em; text-wrap: balance; }
+.page__title em { color: var(--rose-d); }
+.page__main > p { color: var(--plum-2); max-width: 58ch; }
+.page__main a:not(.btn):not(.page__logo) { color: var(--rose-dd); font-weight: 600; }
+.page__actions { margin-top: 1rem; display: flex; flex-wrap: wrap; gap: .8rem; }
+.page__main h2 { font-family: var(--ff-display); font-weight: 400; font-size: clamp(1.9rem, 3.6vw, 2.8rem); line-height: 1.05; margin-top: 2.6rem; scroll-margin-top: 2rem; }
+.page__main h3 { font-weight: 700; margin-top: 1.4rem; }
+.page__main ul.page__list { list-style: disc; padding-left: 1.3rem; display: grid; gap: .4rem; color: var(--plum-2); }
+.page__todo { padding: .15rem .55rem; border-radius: .4rem; background: var(--butter); font-size: .88em; font-weight: 600; }
+.page__note { padding: 1rem 1.2rem; border-radius: 1rem; background: var(--blush); color: var(--plum-2); font-size: .95rem; }
+#etat { display: grid; gap: 1.2rem; }
+#etat .recap, #etat .gcard { max-width: 34rem; }
+.gcard--page { width: min(100%, 30rem); margin-top: .5rem; }
+.gcard--page .gcard__amount { font-size: 2.8rem; }
+.gcard__code { position: absolute; left: 1.2rem; right: 1.2rem; bottom: 3.2rem; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-weight: 700; font-size: clamp(1.1rem, 4.4vw, 1.7rem); letter-spacing: .12em; color: var(--plum); }
+@media print {
+  .page__actions, .skip, .page__logo { display: none !important; }
+  .page { background: #fff; }
+  .gcard { box-shadow: none; border: 1px solid #ccc; }
+}

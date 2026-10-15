@@ -1,0 +1,737 @@
+{
+ "version": 1,
+ "source": "Planity, fiche « Cécile Beauté » (Forcalquier), relevé du 14/10/2026 : fiche brute recoupée avec la page déroulée",
+ "releveSha256": "251aad5e0b76dd05e9df72f4cd60736be24f4acd144008601c7011c8452c12ed",
+ "familles": [
+  {
+   "id": "visage",
+   "nom": "Visage",
+   "titre": "Soins du visage",
+   "intro": "Des soins Sothys en cabine, du diagnostic de peau aux traitements intensifs, peelings et soins de saison.",
+   "categories": [
+    {
+     "id": "traitements-intensifs",
+     "titre": "Traitements intensifs Sothys",
+     "intro": "Des soins de 1 h 15, recommandés en cure de 3 séances.",
+     "services": [
+      {
+       "id": "ti-hydra",
+       "planityId": "-MNgskDTJ3UoMHwZlYmM",
+       "nom": "Traitement intensif hydratant Hydra Hyaluronic Acid",
+       "description": "Alliance parfaite de technicité et de sensorialité, ce soin associe des textures ultra confortables à des actifs haute performance pour inonder la peau de bien-être et lui procurer une sensation d'hydratation absolue. Hydratation pro jeunesse : 100 % de satisfaction après 3 soins. Ce traitement intensif est recommandé en cure de 3 soins.",
+       "duree": 75,
+       "prix": 85,
+       "enLigne": true,
+       "nomPlanity": "Traitement Intensif Hydratant HYDRA HYALURONIC ACID"
+      },
+      {
+       "id": "ti-jeunesse",
+       "planityId": "-MNgswgC4SzRT3XNpUdm",
+       "nom": "Traitement intensif jeunesse BP3 Tri-Complex",
+       "description": "Au travers de 5 étapes clés et 8 formules spécifiques, vivez l'efficacité jeunesse Sothys associée à des massages relaxants et à une prise en charge experte pour une peau visiblement plus jeune. 50 % de fermeté en plus après 3 soins ! Ce traitement intensif est recommandé en cure de 3 soins.",
+       "duree": 75,
+       "prix": 85,
+       "enLigne": true,
+       "nomPlanity": "Traitement intensif jeunesse BP3 tri complex"
+      },
+      {
+       "id": "ti-eclat",
+       "planityId": "-MNgsRC5zmYW2rPu22Os",
+       "nom": "Traitement intensif défense éclat Dx Glow",
+       "description": "Un soin d'1 h 15 à double détente pour déjouer visiblement les attaques du quotidien : effet flash éclat dès le 1er soin, action sur l'état général de la peau au terme d'une cure de 3 soins. Vous retrouvez immédiatement et pour longtemps un teint radieux et une peau éclatante de beauté.",
+       "duree": 75,
+       "prix": 85,
+       "enLigne": true,
+       "nomPlanity": "Traitement intensif défense éclat - Dx Glow Tm"
+      }
+     ]
+    },
+    {
+     "id": "peelings",
+     "titre": "Peelings cosméceutiques Sothys",
+     "intro": "L'offre peeling sur mesure : un protocole Sothys complet et maîtrisé, aux peelings hautement concentrés, pour une efficacité puissante en toute sécurité.",
+     "services": [
+      {
+       "id": "double-peeling",
+       "planityId": "-OcB9xLYY9eo7qyT9jRH",
+       "nom": "Soin professionnel Double Peeling",
+       "description": "La haute efficacité d'un peeling en toute sérénité. Le soin professionnel Double Peeling allie la haute efficacité d'un peeling contenant 30 % d'acides à la sécurité des formules Sothys. Un protocole de 45 min à personnaliser avec les ampoules Pro Dermobooster selon la problématique de peau : déshydratation, vieillissement cutané, peaux à rougeurs à tendance rosacée, peaux à tendance acnéique jeunes ou adultes.",
+       "duree": 50,
+       "prix": 65,
+       "enLigne": true,
+       "nomPlanity": "Soin professionnel Double Peeling"
+      },
+      {
+       "id": "ac-pro-peel",
+       "planityId": "-NiuBOKnszWi-U25zgQb",
+       "nom": "Soin AC Pro Peel",
+       "detail": "peeling",
+       "description": "Ce peeling doux à la texture gel s'utilise toute l'année pour un effet coup d'éclat immédiat. Cible : peau jeune, peau sensible (sans maladie dermatologique), peau fatiguée… Non irritant.",
+       "duree": 45,
+       "prix": 65,
+       "enLigne": true,
+       "nomPlanity": "Soin AC pro peel (Peeling)"
+      },
+      {
+       "id": "glysalac",
+       "planityId": "-OiO4_CdwBKtWBEKSDV1",
+       "nom": "Soin Glysalac Pro Peel",
+       "detail": "peeling",
+       "description": "Pour affiner la texture de la peau et révéler un teint clair et uniforme. Cibles : peau mature, teint terne, atone, ride marquée… Soin inter-saisonnier qui rebooste la peau et favorise la synthèse du collagène. Idéal en cure (1 soin par semaine pendant 3 semaines).",
+       "duree": 30,
+       "prix": 65,
+       "enLigne": true,
+       "nomPlanity": "Soin Glysalac Pro Peel ( Peeling )"
+      }
+     ]
+    },
+    {
+     "id": "soins-combines",
+     "titre": "Soins combinés 2 en 1",
+     "intro": "Deux soins dans la même séance.",
+     "services": [
+      {
+       "id": "combine-hydra-peeling",
+       "planityId": "-OlvraUTr1rw2IGYP_vm",
+       "nom": "Traitement intensif Hydra + soin professionnel Double Peeling",
+       "description": "Pour une hydratation intense et un effet peau neuve.",
+       "duree": 90,
+       "prix": 120,
+       "enLigne": true,
+       "nomPlanity": "Traitement Intensif Hydra + Soin professionnel Double Peeling"
+      },
+      {
+       "id": "combine-jeunesse-peeling",
+       "planityId": "-OlvsiL_bt-Jl4KMalfl",
+       "nom": "Traitement intensif Jeunesse BP3 Tri-Complex + soin professionnel Double Peeling",
+       "duree": 90,
+       "prix": 120,
+       "enLigne": true,
+       "nomPlanity": "Traitement Intensif Jeunesse BP3 TRI-COMPLEX + Soin Professionnel Double Peeling"
+      }
+     ]
+    },
+    {
+     "id": "premiere-visite",
+     "titre": "Première visite à l'institut",
+     "intro": "Première visite ? Faites-nous confiance : découvrez notre expertise et laissez-nous vous guider vers le soin visage idéal pour vous.",
+     "services": [
+      {
+       "id": "diagnostic-peau",
+       "planityId": "-Olvm4qPityz42e3Knc0",
+       "nom": "Soin visage personnalisé et diagnostic de peau",
+       "duree": 90,
+       "prix": 63,
+       "prixMax": 120,
+       "enLigne": true,
+       "nomPlanity": "Soin Visage Personnalisé & Diagnostic Peau"
+      }
+     ]
+    },
+    {
+     "id": "soin-saisonnier",
+     "titre": "Le soin saisonnier",
+     "intro": "Édition limitée. Un concept inédit alliant chronobiologie et gourmandise pour révéler l'éclat de la peau à chaque saison.",
+     "services": [
+      {
+       "id": "saisonnier-visage",
+       "planityId": "-MNgt5ihyEhuKLCaIN7P",
+       "nom": "Soin saisonnier visage",
+       "description": "Printemps-été / automne-hiver. Pour révéler l'éclat de la peau à chaque saison.",
+       "duree": 50,
+       "prix": 62,
+       "enLigne": true,
+       "nomPlanity": "Soin saisonnier visage"
+      },
+      {
+       "id": "saisonnier-visage-corps",
+       "planityId": "-MOB263pzmxcWSNyTJPd",
+       "nom": "Soin visage saisonnier + soin corps saisonnier",
+       "duree": 90,
+       "prix": 95,
+       "enLigne": true,
+       "nomPlanity": "Soin visage saisonnier + Soin corps saisonnier"
+      }
+     ]
+    },
+    {
+     "id": "focus-taches",
+     "titre": "Focus taches et lumière",
+     "intro": "Rituel beauté lumière pour cibler et traiter tous les types de taches. Ce soin en 6 étapes apporte la triple réponse : taches, hydratation et teint unifié.",
+     "services": [
+      {
+       "id": "focus-taches",
+       "planityId": "-NeTelnP-hrSJiX7JNSI",
+       "nom": "Soin visage, cou, décolleté et mains",
+       "detail": "focus taches et lumière",
+       "duree": 75,
+       "prix": 85,
+       "enLigne": true,
+       "nomPlanity": "SOIN visage cou decollete et mains  1h15"
+      }
+     ]
+    },
+    {
+     "id": "visage-homme",
+     "titre": "Soin visage homme",
+     "intro": "Nettoyage, gommage, masque personnalisé, massage et final hydratant jeunesse : le soin idéal pour la peau des hommes en quête d'éclat et de relaxation.",
+     "services": [
+      {
+       "id": "visage-homme",
+       "planityId": "-NlSU232GhsSvXbDXaNM",
+       "nom": "Soin visage homme",
+       "detail": "énergisant",
+       "duree": 50,
+       "prix": 60,
+       "enLigne": true,
+       "nomPlanity": "Soin Visage Homme"
+      }
+     ]
+    },
+    {
+     "id": "sothys-organics",
+     "titre": "Sothys Organics",
+     "intro": "La haute efficacité biologique.",
+     "services": [
+      {
+       "id": "organics-eclat",
+       "planityId": "-MxduDV74pnoH9W39Dyr",
+       "nom": "Soin éclat visage fraîcheur",
+       "detail": "certifié biologique",
+       "description": "Un soin court à la senteur fraîche pour réveiller la peau et lui donner un coup d'éclat instantané.",
+       "duree": 40,
+       "prix": 50,
+       "enLigne": true,
+       "nomPlanity": "SOIN ECLAT VISAGE FRAICHEUR CERTIFIE BIOLOGIQUE"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "epilations",
+   "nom": "Épilations",
+   "titre": "Épilations",
+   "intro": "Précises et rapides, sur matelas chauffant : visage, corps, forfaits, et aussi pour ces messieurs.",
+   "categories": [
+    {
+     "id": "epilation",
+     "titre": "Épilation",
+     "services": [
+      {
+       "id": "epil-sourcils",
+       "planityId": "-MNgvu9BXK03WOKeKT5o",
+       "nom": "Sourcils",
+       "duree": 10,
+       "prix": 9,
+       "enLigne": true,
+       "nomPlanity": "Sourcils"
+      },
+      {
+       "id": "epil-ligne-sourcils",
+       "planityId": "-MNgvxZOv7oeit-rCm1r",
+       "nom": "Création de la ligne des sourcils",
+       "duree": 25,
+       "prix": 15,
+       "enLigne": true,
+       "nomPlanity": "Création ligne sourcils"
+      },
+      {
+       "id": "epil-levres",
+       "planityId": "-MNgvzWqUrcj_hbCTYgv",
+       "nom": "Lèvres",
+       "duree": 10,
+       "prix": 8,
+       "enLigne": true,
+       "nomPlanity": "Lèvres"
+      },
+      {
+       "id": "epil-menton",
+       "planityId": "-MNgw5HQ-9eKk0e8zLmz",
+       "nom": "Menton",
+       "duree": 10,
+       "prix": 7,
+       "enLigne": true,
+       "nomPlanity": "Menton"
+      },
+      {
+       "id": "epil-aisselles",
+       "planityId": "-MNgwF3_-dlUf0UBxKSe",
+       "nom": "Aisselles",
+       "duree": 15,
+       "prix": 12,
+       "enLigne": true,
+       "nomPlanity": "Aisselles"
+      },
+      {
+       "id": "epil-bras",
+       "planityId": "-MNgwGoZmCLuLhqfk89e",
+       "nom": "Bras",
+       "duree": 30,
+       "prix": 14,
+       "enLigne": true,
+       "nomPlanity": "Bras"
+      },
+      {
+       "id": "epil-maillot",
+       "planityId": "-MNgwJYaR0ud40H5yqym",
+       "nom": "Maillot",
+       "duree": 15,
+       "prix": 13,
+       "enLigne": true,
+       "nomPlanity": "Maillot"
+      },
+      {
+       "id": "epil-maillot-bresilien",
+       "planityId": "-MNgwOR95GcHtYXkjNzM",
+       "nom": "Maillot brésilien",
+       "duree": 25,
+       "prix": 19,
+       "enLigne": true,
+       "nomPlanity": "Maillot Brésilien"
+      },
+      {
+       "id": "epil-maillot-americain",
+       "planityId": "-MNgwRp2Vf4iu_znflT2",
+       "nom": "Maillot américain",
+       "duree": 30,
+       "prix": 22,
+       "enLigne": true,
+       "nomPlanity": "Maillot Américain"
+      },
+      {
+       "id": "epil-maillot-complet",
+       "planityId": "-MNgwW7iKY0UXvQdenru",
+       "nom": "Maillot complet",
+       "duree": 40,
+       "prix": 28,
+       "enLigne": true,
+       "nomPlanity": "Maillot complet"
+      },
+      {
+       "id": "epil-demi-jambes",
+       "planityId": "-MNgwZBIk_xh4ekKO3hf",
+       "nom": "Demi-jambes",
+       "duree": 20,
+       "prix": 20,
+       "enLigne": true,
+       "nomPlanity": "1/2 Jambes"
+      },
+      {
+       "id": "epil-cuisses",
+       "planityId": "-MNgw_p3tRLamDjy9N2v",
+       "nom": "Cuisses",
+       "duree": 30,
+       "prix": 24,
+       "enLigne": true,
+       "nomPlanity": "Cuisses"
+      },
+      {
+       "id": "epil-jambes",
+       "planityId": "-MNgwd244qs9Agtv_UJl",
+       "nom": "Jambes complètes",
+       "duree": 40,
+       "prix": 33,
+       "enLigne": true,
+       "nomPlanity": "Jambes Complètes"
+      }
+     ]
+    },
+    {
+     "id": "forfaits-epilation",
+     "titre": "Forfaits épilation",
+     "intro": "Plusieurs zones dans le même rendez-vous, à prix doux.",
+     "services": [
+      {
+       "id": "forfait-dj-maillot-ou-aisselles",
+       "planityId": "-MNgwm_jJcHOBZYckw2D",
+       "nom": "Demi-jambes + maillot ou aisselles",
+       "duree": 20,
+       "prix": 27,
+       "enLigne": true,
+       "nomPlanity": "1/2 jambes + maillot ou aisselles"
+      },
+      {
+       "id": "forfait-dj-m-a",
+       "planityId": "-MNgwwxdSrySSDB7qu4o",
+       "nom": "Demi-jambes + maillot + aisselles",
+       "duree": 30,
+       "prix": 37,
+       "enLigne": true,
+       "nomPlanity": "1/2 Jambes + Maillot + Aisselles"
+      },
+      {
+       "id": "forfait-dj-mb-a",
+       "planityId": "-MNgx2qfVKFTRKucHF7T",
+       "nom": "Demi-jambes + maillot brésilien + aisselles",
+       "duree": 35,
+       "prix": 42,
+       "enLigne": true,
+       "nomPlanity": "1/2 Jambes + Maillot Brésilien + Aisselles"
+      },
+      {
+       "id": "forfait-dj-ma-a",
+       "planityId": "-MNgx4AgzZQjfjj4MzH-",
+       "nom": "Demi-jambes + maillot américain + aisselles",
+       "duree": 40,
+       "prix": 37,
+       "enLigne": true,
+       "nomPlanity": "1/2 Jambes + Maillot Américain + Aisselles"
+      },
+      {
+       "id": "forfait-dj-mc-a",
+       "planityId": "-MNgx4EpHZwnB340Eh1w",
+       "nom": "Demi-jambes + maillot complet + aisselles",
+       "duree": 45,
+       "prix": 50,
+       "enLigne": true,
+       "nomPlanity": "1/2 Jambes + Maillot complet + Aisselles"
+      },
+      {
+       "id": "forfait-j-maillot-ou-aisselles",
+       "planityId": "-MNgxHFXOAKPAUEWSgPm",
+       "nom": "Jambes complètes + maillot ou aisselles",
+       "duree": 35,
+       "prix": 42,
+       "enLigne": true,
+       "nomPlanity": "Jambes complètes + maillot ou aisselles"
+      },
+      {
+       "id": "forfait-j-m-a",
+       "planityId": "-MNgxImoue9p7y1R88Ce",
+       "nom": "Jambes complètes + maillot + aisselles",
+       "duree": 40,
+       "prix": 51,
+       "enLigne": true,
+       "nomPlanity": "Jambes Complètes + Maillot + Aisselles"
+      },
+      {
+       "id": "forfait-j-mb-a",
+       "planityId": "-MNgxP8KPX3LV9T4twQm",
+       "nom": "Jambes complètes + maillot brésilien + aisselles",
+       "duree": 45,
+       "prix": 58,
+       "enLigne": true,
+       "nomPlanity": "Jambes Complètes + Maillot Brésilien + Aisselles"
+      },
+      {
+       "id": "forfait-j-ma-a",
+       "planityId": "-MNgxTISB6eiBJSl3GiG",
+       "nom": "Jambes complètes + maillot américain + aisselles",
+       "duree": 45,
+       "prix": 61,
+       "enLigne": true,
+       "nomPlanity": "Jambes Complètes + Maillot Américain + Aisselles"
+      },
+      {
+       "id": "forfait-j-mc-a",
+       "planityId": "-MNgxTN1sQlTXg7W5J6W",
+       "nom": "Jambes complètes + maillot complet + aisselles",
+       "duree": 60,
+       "prix": 68,
+       "enLigne": true,
+       "nomPlanity": "Jambes Complètes + Maillot complet+ Aisselles"
+      },
+      {
+       "id": "forfait-visage",
+       "planityId": "-MOB0YfbFLB_fVDT0XOX",
+       "nom": "Épilation du visage",
+       "detail": "sourcils, lèvres et menton",
+       "duree": 20,
+       "prix": 19,
+       "enLigne": true,
+       "nomPlanity": "EPIL VISAGE ( sourcils +levre +menton)"
+      }
+     ]
+    },
+    {
+     "id": "epilation-homme",
+     "titre": "Épilation homme",
+     "services": [
+      {
+       "id": "homme-sourcils",
+       "planityId": "-MNgxi6jj2fr4GNt_2g0",
+       "nom": "Sourcils",
+       "detail": "homme",
+       "duree": 15,
+       "prix": 12,
+       "enLigne": true,
+       "nomPlanity": "Sourcils"
+      },
+      {
+       "id": "homme-oreilles",
+       "planityId": "-OiO6CJ0Gz924fnaHF5c",
+       "nom": "Oreilles",
+       "detail": "homme",
+       "duree": 20,
+       "prix": 12,
+       "enLigne": true,
+       "nomPlanity": "Oreilles"
+      },
+      {
+       "id": "homme-dos",
+       "planityId": "-MNgxo9HonnhCyV-5e0c",
+       "nom": "Dos",
+       "detail": "homme",
+       "duree": 20,
+       "prix": 26,
+       "enLigne": true,
+       "nomPlanity": "Dos"
+      },
+      {
+       "id": "homme-epaules",
+       "planityId": "-MNgxk2enenmxnERMlSr",
+       "nom": "Épaules",
+       "detail": "homme",
+       "duree": 15,
+       "prix": 16,
+       "enLigne": true,
+       "nomPlanity": "Epaule"
+      },
+      {
+       "id": "homme-torse",
+       "planityId": "-MNgxmCl2MTJ66iOCihD",
+       "nom": "Torse",
+       "detail": "homme",
+       "duree": 25,
+       "prix": 23,
+       "enLigne": true,
+       "nomPlanity": "Torse"
+      },
+      {
+       "id": "homme-jambes",
+       "planityId": "-MNgxqHAK-Xg4f7mamK9",
+       "nom": "Jambes",
+       "detail": "homme",
+       "duree": 30,
+       "prix": 36,
+       "enLigne": true,
+       "nomPlanity": "Jambes"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mains-pieds",
+   "nom": "Mains et pieds",
+   "titre": "Mains et pieds",
+   "intro": "Soins des mains et des pieds, vernis classique ou semi-permanent.",
+   "categories": [
+    {
+     "id": "mains-pieds",
+     "titre": "Soins des mains et des pieds",
+     "intro": "Les vernis semi-permanents se réservent par téléphone.",
+     "services": [
+      {
+       "id": "soin-mains",
+       "planityId": "-MNgy0WzdTll2ft5PBPB",
+       "nom": "Soin des mains complet",
+       "duree": 35,
+       "prix": 40,
+       "enLigne": true,
+       "nomPlanity": "Soin des mains complet"
+      },
+      {
+       "id": "vernis-mains-apres-soin",
+       "planityId": "-OVSyOUKin5X7VhBBR41",
+       "nom": "Pose de vernis classique, mains",
+       "detail": "uniquement à la suite d'un soin des mains",
+       "duree": 30,
+       "prix": 10,
+       "enLigne": true,
+       "complement": true,
+       "nomPlanity": "Pose de vernis classique Mains (uniquement à la suite d'un soin des mains)"
+      },
+      {
+       "id": "anti-callosites",
+       "planityId": "-NafrH-Bm5ath3rEiZ3F",
+       "nom": "Soin anti-callosités Yumi Feet",
+       "detail": "avec beauté de l'ongle",
+       "duree": 50,
+       "prix": 55,
+       "enLigne": true,
+       "nomPlanity": "Soin ANTI-CALLOSITES Yumi Feet +Beaute de l'ongle"
+      },
+      {
+       "id": "soin-pieds",
+       "planityId": "-MNh--ARqBhDPkjN0OP9",
+       "nom": "Soin des pieds complet",
+       "duree": 40,
+       "prix": 50,
+       "enLigne": true,
+       "nomPlanity": "Soin des pieds complet"
+      },
+      {
+       "id": "vernis-pieds-apres-soin",
+       "planityId": "-OVSyU6fAGrBQezkt-rE",
+       "nom": "Pose de vernis classique, pieds",
+       "detail": "uniquement à la suite d'un soin des pieds complet",
+       "duree": 30,
+       "prix": 10,
+       "enLigne": true,
+       "complement": true,
+       "nomPlanity": "Pose de Vernis Classique Pieds (uniquement à la suite d'un soin des pieds complet)"
+      },
+      {
+       "id": "vernis-classique",
+       "planityId": "-N3j-XIKAeJZqnOCOie-",
+       "nom": "Pose de vernis classique",
+       "detail": "démaquillage, limage, ponçage",
+       "duree": 30,
+       "prix": 19,
+       "enLigne": true,
+       "nomPlanity": "Pose de vernis classique ( Demaquillage+Limage+Poncage)"
+      },
+      {
+       "id": "semi-permanent-mains",
+       "planityId": "-MNh0qFiJmK6ORb4tBmF",
+       "nom": "Vernis semi-permanent, mains",
+       "duree": 30,
+       "prix": 30,
+       "enLigne": false,
+       "surAppel": true,
+       "nomPlanity": "Vernis Semi permanent - Mains"
+      },
+      {
+       "id": "semi-permanent-pieds",
+       "planityId": "-OUFQDGcHMRFyHOMpEqH",
+       "nom": "Vernis semi-permanent, pieds",
+       "duree": 40,
+       "prix": 30,
+       "enLigne": false,
+       "surAppel": true,
+       "nomPlanity": "Vernis semi-permanent Pieds"
+      },
+      {
+       "id": "depose-semi-permanent",
+       "planityId": "-OVHTD9210ridBI4Zm4e",
+       "nom": "Dépose de vernis semi-permanent",
+       "duree": 30,
+       "prix": 15,
+       "enLigne": false,
+       "surAppel": true,
+       "nomPlanity": "DEPOSE VERNIS SEMI PERMANENT"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "regard",
+   "nom": "Regard",
+   "titre": "Beauté du regard",
+   "intro": "Teinture et rehaussement des cils, teinture des sourcils : un regard plus intense, sans maquillage.",
+   "categories": [
+    {
+     "id": "teinture",
+     "titre": "Teinture des cils et des sourcils",
+     "services": [
+      {
+       "id": "teinture-cils",
+       "planityId": "-MNh2iwlUiom6ttSZDai",
+       "nom": "Teinture des cils",
+       "duree": 15,
+       "prix": 14,
+       "enLigne": true,
+       "nomPlanity": "Teinture Cils"
+      },
+      {
+       "id": "teinture-sourcils",
+       "planityId": "-MNh2lm8SeVeS7hd6eBe",
+       "nom": "Teinture des sourcils",
+       "duree": 10,
+       "prix": 11,
+       "enLigne": true,
+       "nomPlanity": "Teinture Sourcils"
+      },
+      {
+       "id": "henne-sourcils",
+       "planityId": "-MOgA5C7h3HKDD9-jS9W",
+       "nom": "Teinture des sourcils au henné végétal + épilation",
+       "duree": 45,
+       "prix": 42,
+       "enLigne": true,
+       "nomPlanity": "Teinture des Sourcils au Henné Végétal + Epilation"
+      },
+      {
+       "id": "teinture-cils-sourcils",
+       "planityId": "-MNh3SAR4E05lRGW_pAA",
+       "nom": "Teinture des cils + sourcils",
+       "duree": 30,
+       "prix": 22.5,
+       "enLigne": true,
+       "nomPlanity": "TEINTURE CILS + SOURCILS"
+      }
+     ]
+    },
+    {
+     "id": "rehaussement",
+     "titre": "Rehaussement des cils",
+     "services": [
+      {
+       "id": "rehaussement-lash",
+       "planityId": "-MNh3UYhxuTdqWv8kmOY",
+       "nom": "Rehaussement de cils + Lash Botox",
+       "duree": 45,
+       "prix": 48,
+       "enLigne": true,
+       "nomPlanity": "Rehaussement de cils + Lash Botox"
+      },
+      {
+       "id": "rehaussement-teinture",
+       "planityId": "-OHRxFPyF1qmwB0vmDB_",
+       "nom": "Rehaussement des cils + teinture des cils",
+       "duree": 60,
+       "prix": 60,
+       "enLigne": true,
+       "nomPlanity": "Rehaussement des cils + teinture des cils"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "maquillage",
+   "nom": "Maquillage",
+   "titre": "Maquillage",
+   "intro": "Du maquillage du jour à celui de la mariée, avec essai.",
+   "categories": [
+    {
+     "id": "maquillage",
+     "titre": "Maquillage",
+     "services": [
+      {
+       "id": "maquillage-mariee",
+       "planityId": "-MNh2_WBswLQS0Vj5zgy",
+       "nom": "Maquillage de mariée",
+       "detail": "essai + jour J",
+       "duree": 30,
+       "prix": 70,
+       "enLigne": true,
+       "nomPlanity": "Maquillage de mariée (essai + jour j)"
+      },
+      {
+       "id": "maquillage-jour",
+       "planityId": "-MNh2dYfpcloObnOIn5E",
+       "nom": "Maquillage jour",
+       "duree": 30,
+       "prix": 30,
+       "enLigne": true,
+       "nomPlanity": "Maquillage Jour"
+      },
+      {
+       "id": "maquillage-soir",
+       "planityId": "-MNh2gAFSNrKsCaQMkjl",
+       "nom": "Maquillage soir ou cocktail",
+       "duree": 30,
+       "prix": 45,
+       "enLigne": true,
+       "nomPlanity": "Maquillage Soir ou Cocktail"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

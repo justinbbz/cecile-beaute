@@ -1,0 +1,130 @@
+{
+ "source": "Planity",
+ "note": 4.98,
+ "nombre": 379,
+ "detail": {
+  "accueil": 4.99,
+  "proprete": 4.99,
+  "cadre": 4.98,
+  "prestation": 4.98
+ },
+ "google": {
+  "note": 4.7,
+  "nombre": 24,
+  "releve": "2026-10-14"
+ },
+ "avis": [
+  {
+   "date": "2026-07-05",
+   "note": 5,
+   "prestation": "Soin du visage",
+   "texte": "Je conseille le soin fabuleux que j’ai fait ce samedi. Cécile est une experte, je la recommande vivement.",
+   "source": "-OuqPztk7NP2y0vD2MP8"
+  },
+  {
+   "date": "2026-08-22",
+   "note": 5,
+   "prestation": "Épilation",
+   "texte": "Je suis cliente du salon depuis plusieurs années. Les prestations sont toujours tops. Cécile est à l’écoute et toujours très professionnelle.",
+   "source": "-Oxkl-k1aaTxHDf4H87R,-Oxkl-k1aaTxHDf4H87S,-Oxkl-k1aaTxHDf4H87T"
+  },
+  {
+   "date": "2026-04-05",
+   "note": 5,
+   "prestation": "Épilation",
+   "texte": "Toujours un petit plaisir de prendre du temps pour soi avec Cécile qui est toujours souriante, à l’écoute et plus que compétente. Une petite pause bienvenue. Merci :)",
+   "source": "-OpIUURQdi-KKWQWjtyh"
+  },
+  {
+   "date": "2026-05-20",
+   "note": 5,
+   "prestation": "Teinture des cils et sourcils",
+   "texte": "Cécile est vraiment ultra pro, je vous conseille ses soins sans hésiter. Et merci à elle pour son écoute et sa gentillesse.",
+   "source": "-Os6zTJQ8B3xKsil9leX"
+  },
+  {
+   "date": "2026-06-05",
+   "note": 5,
+   "prestation": "Soin du visage",
+   "texte": "Les mains de Cécile sont magiques !",
+   "source": "-OsaMIll-yFo6YqqfYYW"
+  },
+  {
+   "date": "2025-12-28",
+   "note": 5,
+   "prestation": "Épilation",
+   "texte": "Je suis une cliente fidèle Cécile Beauté pour la qualité de son travail, sa bonne humeur et… son matelas chauffant, très appréciable par ce temps d’hiver.",
+   "source": "-Og1J699FWt3qqV8SKzR"
+  },
+  {
+   "date": "2025-09-19",
+   "note": 5,
+   "prestation": "Soin saisonnier",
+   "texte": "J’ai passé un très bon moment. Produits de qualité. Détente assurée. Je recommande.",
+   "source": "-OZtgN40SNwjJLvKPFnF"
+  },
+  {
+   "date": "2025-09-12",
+   "note": 5,
+   "prestation": "Épilation",
+   "texte": "Cécile est une passionnée, mon épilation comme mon soin du visage ont été parfaits. Merci encore !",
+   "source": "-OZeOuQbq-DNMkg4hVuT"
+  },
+  {
+   "date": "2025-03-26",
+   "note": 5,
+   "prestation": "Épilation",
+   "texte": "Super ambiance calme et apaisante. Cécile est très gentille et c’est une vraie pro ! Je tiens aussi à recommander les produits beauté que je trouve excellents !",
+   "source": "-OLifzZb7HZBv0uvNyPl,-OLifzZb7HZBv0uvNyPm"
+  },
+  {
+   "date": "2025-01-26",
+   "note": 5,
+   "prestation": "Soin du visage",
+   "texte": "Comme à son habitude, Cécile accueille ses clientes avec le sourire. Elle est à la fois enjouée, professionnelle et bienveillante. Merci pour cette parenthèse de douceur.",
+   "source": "-OF6WoHbfR4cEaeJhfnj"
+  },
+  {
+   "date": "2024-12-07",
+   "note": 5,
+   "prestation": "Épilation",
+   "texte": "Tout était parfait ! Vous pouvez y aller les yeux fermés, que ce soit pour une épilation ou un soin !",
+   "source": "-OBUV69FnUwrR9REVsp6,-OBelwPUTAJQB_WhKKn-"
+  },
+  {
+   "date": "2024-12-01",
+   "note": 5,
+   "prestation": "Soin du visage",
+   "texte": "Cécile est très professionnelle, elle aime son métier. Elle explique ce qu’elle fait et quels produits elle utilise. Un soin parfait du début à la fin ! À refaire…",
+   "source": "-OCXj95ZtK-T7Riv9ZBS"
+  },
+  {
+   "date": "2024-08-18",
+   "note": 5,
+   "prestation": "Soin saisonnier",
+   "texte": "Accueil toujours très sympathique, comme d’habitude ! Cécile est une personne très agréable et très professionnelle. Les soins sont de qualité, accompagnés de conseils pratiques pour le quotidien. Top.",
+   "source": "-O2-7riRfRlhU9VfPsKB,-O2-7riRfRlhU9VfPsKC,-O2-7riRfRlhU9VfPsKD"
+  },
+  {
+   "date": "2022-08-05",
+   "note": 5,
+   "prestation": "Rehaussement de cils",
+   "texte": "Cécile est très accueillante, agréable et souriante. Son institut est propre, très joliment décoré et elle vous fait passer un très bon moment ! La prestation du rehaussement des cils est top ! Merci Cécile !",
+   "source": "-N7gHVNB2H4lhGIAniON"
+  },
+  {
+   "date": "2022-01-09",
+   "note": 5,
+   "prestation": "Soin saisonnier",
+   "texte": "J’aime l’heure de détente et les soins prodigués par Cécile. C’est l’endroit de détente, de lâcher-prise et de zénitude.",
+   "source": "-MsCBAHm6uB1_rf6ns0Y,-MsCBAHm6uB1_rf6ns0Z"
+  },
+  {
+   "date": "2021-08-08",
+   "note": 5,
+   "prestation": "Épilation",
+   "texte": "Cécile doit être une fée de l’épilation. Aucune douleur, aucune grimace même dans les zones sensibles. Elle est très souriante et accueillante.",
+   "source": "-MgLFSsvQJR0JP_pbMRJ,-MgMNV4-3NtkF0mir3PB"
+  }
+ ]
+}

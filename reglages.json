@@ -1,0 +1,151 @@
+{
+ "nom": "Cécile Beauté",
+ "slogan": "Institut de beauté",
+ "esthéticienne": "Cécile",
+ "telephone": "04 92 74 38 11",
+ "telephoneInternational": "+33492743811",
+ "adresse": {
+  "rue": "24 boulevard Latourette",
+  "codePostal": "04300",
+  "ville": "Forcalquier",
+  "pays": "FR",
+  "latitude": 43.9585723,
+  "longitude": 5.7795194
+ },
+ "fuseau": "Europe/Paris",
+ "horairesAffiches": {
+  "lundi": [],
+  "mardi": [
+   [
+    "10:00",
+    "12:30"
+   ],
+   [
+    "13:30",
+    "18:00"
+   ]
+  ],
+  "mercredi": [
+   [
+    "10:00",
+    "18:00"
+   ]
+  ],
+  "jeudi": [
+   [
+    "10:00",
+    "18:00"
+   ]
+  ],
+  "vendredi": [
+   [
+    "10:00",
+    "18:00"
+   ]
+  ],
+  "samedi": [
+   [
+    "10:00",
+    "17:00"
+   ]
+  ],
+  "dimanche": []
+ },
+ "horaires": {
+  "lundi": [],
+  "mardi": [
+   [
+    "10:00",
+    "12:30"
+   ],
+   [
+    "13:30",
+    "18:00"
+   ]
+  ],
+  "mercredi": [
+   [
+    "10:00",
+    "18:00"
+   ]
+  ],
+  "jeudi": [
+   [
+    "10:00",
+    "18:00"
+   ]
+  ],
+  "vendredi": [
+   [
+    "10:00",
+    "18:00"
+   ]
+  ],
+  "samedi": [
+   [
+    "10:00",
+    "17:00"
+   ]
+  ],
+  "dimanche": []
+ },
+ "fermetures": [
+  "2026-11-01",
+  "2026-11-11",
+  "2026-12-25",
+  "2027-01-01",
+  "2027-03-29",
+  "2027-05-01",
+  "2027-05-06",
+  "2027-05-08",
+  "2027-05-17",
+  "2027-07-14",
+  "2027-08-15",
+  "2027-11-01",
+  "2027-11-11",
+  "2027-12-25",
+  "2028-01-01",
+  "2028-04-17",
+  "2028-05-01",
+  "2028-05-08",
+  "2028-05-25",
+  "2028-06-05",
+  "2028-07-14",
+  "2028-08-15",
+  "2028-11-01",
+  "2028-11-11",
+  "2028-12-25"
+ ],
+ "reservation": {
+  "pasCreneauMinutes": 15,
+  "delaiMinimumHeures": 24,
+  "horizonJours": 60,
+  "dureeMaxMinutes": 240,
+  "maxPrestations": 6,
+  "paiements": [
+   "acompte",
+   "total"
+  ],
+  "acomptePourcent": 30,
+  "acompteMinimumEuros": 10,
+  "paiementSurPlaceJusquaEuros": 30,
+  "retenueMinutes": 31,
+  "annulationHeures": 24
+ },
+ "carteCadeau": {
+  "montantsSuggeres": [
+   30,
+   50,
+   75,
+   100,
+   150
+  ],
+  "minimum": 10,
+  "maximum": 300,
+  "validiteMois": 12
+ },
+ "liens": {
+  "avisGoogle": "https://www.google.com/maps/place/C%C3%A9cile+Beaut%C3%A9/@43.9585723,5.7795194,17z/data=!4m6!3m5!1s0x12cbb584dda8a4fb:0x73d2e8c3e93bc054!8m2!3d43.9585723!4d5.7795194!16s%2Fg%2F11b6d7qscs",
+  "itineraire": "https://www.google.com/maps/dir/?api=1&destination=43.9585723,5.7795194"
+ }
+}
